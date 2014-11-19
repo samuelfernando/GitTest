@@ -18,11 +18,11 @@ public class GitTest {
         // TODO code application logic here
         GitTest gt = new GitTest();
         int out = gt.coolFunction();
-        System.out.println("Wow cool function just gave me "+out);
+        System.out.println("Oh no cool function was wrong it should be "+out);
     }
 
     private int coolFunction() {
-        return 42;
+        return 9999;
     }
     
 }
