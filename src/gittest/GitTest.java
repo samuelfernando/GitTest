@@ -19,10 +19,16 @@ public class GitTest {
         GitTest gt = new GitTest();
         int out = gt.coolFunction();
         System.out.println("Wow cool function just gave me "+out);
+        int dev = gt.devFunction();
+        System.out.println("Dev "+dev);
     }
 
     private int coolFunction() {
         return 42;
+    }
+
+    private int devFunction() {
+        return 666;
     }
     
 }
